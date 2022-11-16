@@ -1,0 +1,117 @@
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  top: -2px;
+  width: 100%;
+}
+
+li {
+float: right;
+border: 1px solid white;
+border-radius: 0 0 12px 12px;
+margin: 0px 20px 0px 0px;
+background-color: black;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+background-color: white;
+color: black;
+border-radius: 0 0 12px 12px;
+border: 1px solid black;
+}
+
+header{
+height: 70px;
+width: 99%;
+}
+
+img{
+width: 360px;
+height: 360px;
+border-radius: 12px;
+}
+
+.home{
+width: 40%;
+float: left;
+margin: 20px 0px 0px 200px;
+}
+
+.name{
+width: 60%;
+height: 300px;
+margin: 100px 0px 50px -300px;
+float: left;
+text-align: left;
+}
+
+.main{
+margin: 10px 0px 50px 0px;
+width: 80%;
+margin: 0 auto;
+}
+
+p{
+font-size: 32px;
+color: white;
+margin-left: 100px;
+}
+
+span{
+font-weight: bolder;
+}
+
+table{
+width: 99%;
+margin: 0px 0px 50px 0px;
+border: 0px solid black;
+border-collapse: collapse;
+}
+
+th{
+padding: 0px 0px 0px 0px;
+width: 33%;
+text-align: left;
+}
+
+td{
+padding: 0px 0px 0px 0px;
+width: 33%;
+text-align: justify;
+
+}
+
+h1{
+color: white;
+font-size: 64px;
+}
+
+h2{
+color: white;
+font-size: 48px;
+margin-bottom: 50px;
+}
+
+h3{
+color: white;
+font-size: 36px;
+}
